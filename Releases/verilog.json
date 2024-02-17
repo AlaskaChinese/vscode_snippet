@@ -422,35 +422,67 @@
 		"description": "initial"
 	}
 	
-	"input [   DATA_W-1: 0]         ;": {
+	"input ;": {
 		"prefix": "input",
 		"body": [
-			"input [   ${1:DATA_W-1}: 0]         ;"
+			"input                $1		;"
 		],
 		"description": "input"
 	}
 	
-	"output[   DATA_W-1: 0]         ;": {
+	"output ;": {
 		"prefix": "output",
 		"body": [
-			"output[   ${1:DATA_W-1}: 0]         ;"
+			"output               $1		;"
 		],
 		"description": "output"
 	}
 	
-	"wire  [   DATA_W-1: 0]         ;": {
+	"wire ;": {
 		"prefix": "wire",
 		"body": [
-			"wire  [   ${1:DATA_W-1}: 0]         ;"
+			"wire                 $1		;"
 		],
 		"description": "wire"
 	}
 
-	"reg   [   DATA_W-1: 0]         ;": {
+	"reg ;": {
 		"prefix": "reg",
 		"body": [
-			"reg   [   ${1:DATA_W-1}: 0]         ;"
+			"reg                  $1		;"
 		],
 		"description": "reg"
+	}
+
+	"input [   DATA_W-1: 0] ;": {
+		"prefix": "input1",
+		"body": [
+			"input   [   ${1:DATA_W-1}: 0]    $2		;"
+		],
+		"description": "input1"
+	}
+	
+	"output [   DATA_W-1: 0] ;": {
+		"prefix": "output1",
+		"body": [
+			"output  [   ${1:DATA_W-1}: 0]    $2		;"
+		],
+		"description": "output1"
+	}
+	
+	"wire [   DATA_W-1: 0] ;": {
+		"prefix": "wire1",
+		"body": [
+			"wire    [   ${1:DATA_W-1}: 0]    $2		;"
+		],
+		"description": "wire1"
+	}
+
+	"reg [   DATA_W-1: 0] ;": {
+		"prefix": "reg1",
+		"body": [
+			"reg     [   ${1:DATA_W-1}: 0]    $2		;"
+		],
+		"description": "reg1"
 	}
 }

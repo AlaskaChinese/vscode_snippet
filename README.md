@@ -8,4 +8,4 @@
  * Then click "User Snippets". 
  * Copy my code and paste in your .json file. 
   
-  ![Usage](Pics\Usage.png)
+  ![Usage](https://github.com/AlaskaChinese/vscode_snippet/blob/main/Pics/Usage.png?raw=true)

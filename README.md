@@ -2,7 +2,7 @@
  This is a code snippet completion plan. The code was transplanted from Mingdeyang.
 
 ## Usage
- It's easy to use this. 
+ It's easy to apply this. 
  * Just launch VsCode. 
  * Click the "gear" icon. 
  * Then click "User Snippets". 

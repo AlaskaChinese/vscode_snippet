@@ -8,4 +8,5 @@
  * Then click "User Snippets". 
  * Copy my code and paste in your .json file. 
   
-  ![Usage](https://github.com/AlaskaChinese/vscode_snippet/blob/main/Pics/Usage.png?raw=true)
+  ![Usage](https://github.com/AlaskaChinese/vscode_snippet/blob/main/Examples/Usage.png?raw=true)
+  <video src="![视频链接](https://github.com/AlaskaChinese/vscode_snippet/blob/main/Examples/Usage.png?raw=true)"></video>
